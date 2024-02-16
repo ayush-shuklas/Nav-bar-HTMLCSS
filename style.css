@@ -1,0 +1,44 @@
+nav ul li {
+    float: left;
+    list-style: none;
+    padding: 8px;
+    text-decoration: none;
+    margin: 5px;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav li a:hover {
+    color: red;
+  }
+  nav {
+    /* border: 2px solid green; */
+    margin: 2px;
+    background-color: black;
+    border-radius: 10px;
+  }
+  nav ul {
+    overflow: auto;
+  }
+  
+  .search {
+    float: right;
+    padding-right: 39px;
+    padding-top: 11px;
+  }
+  
+  input {
+    border-radius: 20px;
+    border: 2px solid red;
+    text-align: center;
+    font-weight: bold;
+  }
+  
